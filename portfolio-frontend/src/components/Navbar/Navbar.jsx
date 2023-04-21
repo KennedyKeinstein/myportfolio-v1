@@ -33,6 +33,7 @@ const Navbar = () => {
             transition={{ duration: 0.7, ease: "easeOut" }}
           >
             <HiX onClick={handleToggle(false)} />
+
             <ul>
               {items.map((item) => (
                 <li key={item}>
