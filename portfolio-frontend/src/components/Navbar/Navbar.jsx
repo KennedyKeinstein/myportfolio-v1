@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.logo} alt="logo" />
+        <img src={images.my_logo} alt="logo" />
       </div>
 
       <ul className="app__navbar-links">
@@ -33,6 +33,7 @@ const Navbar = () => {
             transition={{ duration: 0.7, ease: "easeOut" }}
           >
             <HiX onClick={handleToggle(false)} />
+
             <ul>
               {items.map((item) => (
                 <li key={item}>
